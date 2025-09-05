@@ -10054,7 +10054,8 @@ html.menu-opened body {
     margin-right: 35px;
   }
   .header-new .main-nav > li a {
-    font-size: 15px;
+    font-size: 14px;
+    font-weight: bold;
   }
 }
 

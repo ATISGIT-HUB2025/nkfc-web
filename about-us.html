@@ -1,0 +1,1378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>Dial For Hub</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo.png" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!-- Animation CSS -->
+    <link rel="stylesheet" href="assets/css/animate.css" />
+
+    <!-- Tabler Icon CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/tabler-icons.min.css"
+    />
+
+    <!-- Fontawesome Icon CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js"
+      integrity="sha512-Dm5UxqUSgNd93XG7eseoOrScyM1BVs65GrwmavP0D0DujOA8mjiBfyj71wmI2VQZKnnZQsSWWsxDKNiQIqk8sQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- select CSS -->
+    <link rel="stylesheet" href="assets/plugins/select2/css/select2.min.css" />
+
+    <!-- Owlcarousel CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+
+    <!-- Mobile CSS-->
+    <link
+      rel="stylesheet"
+      href="assets/plugins/intltelinput/css/intlTelInput.css"
+    />
+    <link rel="stylesheet" href="assets/plugins/intltelinput/css/demo.css" />
+
+    <!-- Feather CSS -->
+    <link rel="stylesheet" href="assets/css/feather.css" />
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <div class="main-wrapper">
+      <!-- Header -->
+      <header class="header header-new">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg header-nav">
+            <div class="navbar-header">
+              <a id="mobile_btn" href="javascript:void(0);">
+                <span class="bar-icon">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </span>
+              </a>
+              <a
+                href="index.html"
+                class="navbar-brand logo d-lg-flex align-items-center gap-2"
+              >
+                <img src="assets/img/logo.png" class="img-fluid" alt="Logo" />
+                <h6>Dial For Hub</h6>
+              </a>
+              <a href="index.html" class="navbar-brand logo-small">
+                <img src="assets/img/logo.png" class="img-fluid" alt="Logo" />
+                <h6>Dial For Hub</h6>
+              </a>
+            </div>
+            <div class="main-menu-wrapper">
+              <div class="menu-header">
+                <a href="index.html" class="menu-logo">
+                  <div class="d-flex align-items-center gap-2">
+                    <img
+                      src="assets/img/logo.png"
+                      class="img-fluid"
+                      alt="Logo"
+                      width="50"
+                    />
+                    <h6>Dial For Hub</h6>
+                  </div>
+                </a>
+                <a
+                  id="menu_close"
+                  class="menu-close"
+                  href="javascript:void(0);"
+                >
+                  <i class="fas fa-times"></i
+                ></a>
+              </div>
+              <ul class="main-nav align-items-lg-center">
+                <li class="active">
+                  <a href="index.html">Home </a>
+                </li>
+                <li class="">
+                  <a href="about-us.html">About Us </a>
+                </li>
+                <li class="">
+                  <a href="services.html">Services </a>
+                </li>
+
+                <li class="">
+                  <a href="contact-us.html">Contact Us </a>
+                </li>
+
+                <li class="nav-item d-sm-none">
+                  <a class="nav-link" href="login.html">Customers</a>
+                </li>
+                <li class="nav-item d-sm-none">
+                  <a
+                    class="nav-link btn btn-outline-dark btn-sm"
+                    href="register.html"
+                    >vendors</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <ul class="nav header-navbar-rht">
+              <li class="nav-item pe-1">
+                <a
+                  class="nav-link btn btn-light"
+                  href="#"
+                  data-bs-toggle="modal"
+                  data-bs-target="#login-modal"
+                  ><i class="ti ti-lock me-2"></i> SignIn</a
+                >
+              </li>
+              <li class="nav-item pe-1">
+                <a class="nav-link btn btn-light" href="user-dashboard.html"
+                  ><i class="ti ti-user me-2"></i> Customer</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link btn btn-linear-primary"
+                  href="#"
+                  data-bs-toggle="modal"
+                  data-bs-target="#provider"
+                  ><i class="ti ti-user-filled me-2"></i>Become a Vendor</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- /Header -->
+
+      <!-- Breadcrumb -->
+      <div class="breadcrumb-bar text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-12">
+              <h2 class="breadcrumb-title mb-2">About Us</h2>
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center mb-0">
+                  <li class="breadcrumb-item">Home</li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    About Us
+                  </li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+          <div class="breadcrumb-bg">
+            <img
+              src="assets/img/bg/breadcrumb-bg-01.png"
+              class="breadcrumb-bg-1"
+              alt="Img"
+            />
+            <img
+              src="assets/img/bg/breadcrumb-bg-02.png"
+              class="breadcrumb-bg-2"
+              alt="Img"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- /Breadcrumb -->
+
+      <!-- Page Wrapper -->
+      <div class="page-wrapper">
+        <div class="content p-0">
+          <!-- About -->
+          <div class="about-sec">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-lg-6">
+                  <div class="about-img d-none d-md-block">
+                    <div class="about-exp">
+                      <span>12+ years of experiences</span>
+                    </div>
+                    <div class="abt-img">
+                      <img
+                        src="assets/img/about/1.jpg"
+                        class="img-fluid"
+                        alt="img"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="about-content">
+                    <h6>ABOUT OUR COMPANY</h6>
+                    <h2>Best Solution For Cleaning Services</h2>
+                    <p>
+                      Welcome to Dial For Hub, your premier destination for
+                      connecting with top-rated service providers and finding
+                      the perfect match for your needs. Our platform is designed
+                      to simplify the process of discovering, evaluating, and
+                      hiring trusted professionals across a wide range of
+                      services, from home improvement and IT support to personal
+                      care and more.
+                    </p>
+                    <p>
+                      At Dial For Hub, our mission is to bridge the gap between
+                      service providers and customers by offering a seamless and
+                      efficient marketplace experience. We aim to empower both
+                      parties by providing a reliable platform where quality,
+                      transparency, and customer satisfaction are our top
+                      priorities.
+                    </p>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <ul>
+                          <li class="text-truncate">
+                            <i
+                              class="ti ti-circle-check-filled text-dark me-1"
+                            ></i
+                            >We prioritize quality and reliability
+                          </li>
+                          <li class="text-truncate">
+                            <i
+                              class="ti ti-circle-check-filled text-dark me-1"
+                            ></i
+                            >WeSaving your time and effort.
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-md-6">
+                        <ul>
+                          <li class="text-truncate">
+                            <i
+                              class="ti ti-circle-check-filled text-dark me-1"
+                            ></i
+                            >Clear, detailed service listings & reviews
+                          </li>
+                          <li class="text-truncate">
+                            <i
+                              class="ti ti-circle-check-filled text-dark me-1"
+                            ></i>
+                            Smooth and satisfactory experience.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /About -->
+
+          <!-- Work Section -->
+          <section class="section" style="background: #f8fcfd">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <div class="section-header text-center">
+                    <h2 class="mb-1">
+                      How it <span class="text-linear-primary">Works</span>
+                    </h2>
+                    <p class="sub-title">
+                      Follow a few simple steps to book your service with ease.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                  <div class="works-eights-main">
+                    <div class="works-eights-img">
+                      <img src="assets/img/bg/1.png" alt="image" width="100" />
+                      <div class="works-eights-arrow">
+                        <img
+                          src="assets/img/icons/arrow-eight-1.svg"
+                          class="w-auto"
+                          alt="image"
+                        />
+                      </div>
+                    </div>
+                    <p>Select Service</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                  <div class="works-eights-main">
+                    <div class="works-eights-img">
+                      <img src="assets/img/bg/2.png" alt="image" width="100" />
+                      <div class="works-eights-arrow works-eights-arrow-two">
+                        <img
+                          src="assets/img/icons/arrow-eight-2.svg"
+                          class="w-auto"
+                          alt="image"
+                        />
+                      </div>
+                    </div>
+                    <p>Book & Customize</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                  <div class="works-eights-main">
+                    <div class="works-eights-img">
+                      <img src="assets/img/bg/3.png" alt="image" width="100" />
+                      <div class="works-eights-arrow">
+                        <img
+                          src="assets/img/icons/arrow-eight-1.svg"
+                          alt="image"
+                        />
+                      </div>
+                    </div>
+                    <p>Pay Securely</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                  <div class="works-eights-main">
+                    <div class="works-eights-img">
+                      <img src="assets/img/bg/4.png" alt="image" width="100" />
+                    </div>
+                    <p>Get Service & Enjoy</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- /Work Section -->
+
+          <!-- Choose Us Section -->
+          <div class="chooseus-sec">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-md-6">
+                  <div class="choose-content">
+                    <div class="section-header text-center">
+                      <h2 class="mb-1">
+                        Why Choose <span class="text-linear-primary">Us</span>
+                      </h2>
+                      <p class="sub-title">
+                        Choose us for reliable, personalized service and
+                        exceptional results.
+                      </p>
+                    </div>
+                    <div class="accordion" id="faq_accordion">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne"
+                            aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne"
+                          >
+                            24/7 Supports
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseOne"
+                          class="accordion-collapse collapse show"
+                          data-bs-parent="#faq_accordion"
+                        >
+                          <div class="accordion-body">
+                            <p>
+                              Access round-the-clock support through our
+                              dedicated helpdesk, available 24/7 to address any
+                              issues or queries you may have. Whether it’s day
+                              or night, our team is here to ensure you receive
+                              timely assistance and seamless service.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo"
+                          >
+                            Client’s reviews
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseTwo"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#faq_accordion"
+                        >
+                          <div class="accordion-body">
+                            <p>
+                              Access round-the-clock support through our
+                              dedicated helpdesk, available 24/7 to address any
+                              issues or queries you may have. Whether it’s day
+                              or night, our team is here to ensure you receive
+                              timely assistance and seamless service.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree"
+                          >
+                            Professional Team
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapseThree"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#faq_accordion"
+                        >
+                          <div class="accordion-body">
+                            <p>
+                              Access round-the-clock support through our
+                              dedicated helpdesk, available 24/7 to address any
+                              issues or queries you may have. Whether it’s day
+                              or night, our team is here to ensure you receive
+                              timely assistance and seamless service.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapse4"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree"
+                          >
+                            Best Services
+                          </button>
+                        </h2>
+                        <div
+                          id="panelsStayOpen-collapse4"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#faq_accordion"
+                        >
+                          <div class="accordion-body">
+                            <p>
+                              Access round-the-clock support through our
+                              dedicated helpdesk, available 24/7 to address any
+                              issues or queries you may have. Whether it’s day
+                              or night, our team is here to ensure you receive
+                              timely assistance and seamless service.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="chooseus-img">
+                    <img
+                      src="assets/img/about/2.jpg"
+                      class="img-fluid"
+                      alt="img"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /Choose Us Section -->
+
+          <!-- counter start -->
+          <section class="section" style="background: #f8fcfd">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-xl-4 col-lg-4 col-sm-6">
+                  <div class="choose-icon">
+                    <img
+                      src="assets/img/about/3.png"
+                      class="img-fluid"
+                      alt="img"
+                      width="80"
+                    />
+                    <div class="choose-info">
+                      <h3>2583+</h3>
+                      <p>Satisfied Clients</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-sm-6">
+                  <div class="choose-icon">
+                    <img
+                      src="assets/img/about/4.png"
+                      class="img-fluid"
+                      alt="img"
+                      width="80"
+                    />
+                    <div class="choose-info">
+                      <h3>2583+</h3>
+                      <p>Total Services</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-sm-6">
+                  <div class="choose-icon">
+                    <img
+                      src="assets/img/about/5.png"
+                      class="img-fluid"
+                      alt="img"
+                      width="80"
+                    />
+                    <div class="choose-info">
+                      <h3>2583+</h3>
+                      <p>Years of experience</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- counter end -->
+
+          <!-- Providers Section -->
+          <section class="section">
+            <div class="container">
+              <div class="provider-sec">
+                <div class="row justify-content-center">
+                  <div
+                    class="col-lg-12 text-center wow fadeInUp"
+                    data-wow-delay="0.2s"
+                  >
+                    <div class="section-header text-center">
+                      <h2 class="mb-1">
+                        Popular
+                        <span class="text-linear-primary">Providers</span>
+                      </h2>
+                      <p class="sub-title">
+                        Meet our most trusted and highly rated providers, chosen
+                        by customers like you.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row gx-0">
+                  <div class="col-xl-3 col-lg-4 col-md-6 d-flex">
+                    <div class="provider-item flex-fill">
+                      <div class="d-flex align-items-center">
+                        <a
+                          href="provider-details.html"
+                          class="avatar avatar-xl me-2"
+                        >
+                          <img
+                            src="assets/img/partner/1.webp"
+                            alt="img"
+                            class="rounded-circle"
+                          />
+                        </a>
+                        <div>
+                          <h6><a href="provider-details.html">ATIS</a></h6>
+                          <p class="fs-14 mb-0">
+                            <i class="ti ti-star-filled text-warning me-1"></i
+                            >4.4 (123 Reviews)
+                          </p>
+                          <p class="mb-0">46 Services</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-6 d-flex">
+                    <div class="provider-item flex-fill">
+                      <div class="d-flex align-items-center">
+                        <a
+                          href="provider-details.html"
+                          class="avatar avatar-xl me-2"
+                        >
+                          <img
+                            src="assets/img/partner/2.png"
+                            alt="img"
+                            class="rounded-circle"
+                          />
+                        </a>
+                        <div>
+                          <h6>
+                            <a href="provider-details.html">Amazon</a>
+                          </h6>
+                          <p class="fs-14 mb-0">
+                            <i class="ti ti-star-filled text-warning me-1"></i
+                            >4.8 (200 Reviews)
+                          </p>
+                          <p class="mb-0">40 Services</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xl-3 col-lg-4 col-md-6 d-flex">
+                    <div class="provider-item flex-fill">
+                      <div class="d-flex align-items-center">
+                        <a
+                          href="provider-details.html"
+                          class="avatar avatar-xl me-2"
+                        >
+                          <img
+                            src="assets/img/partner/3.png"
+                            alt="img"
+                            class="rounded-circle"
+                          />
+                        </a>
+                        <div>
+                          <h6>
+                            <a href="provider-details.html">Google</a>
+                          </h6>
+                          <p class="fs-14 mb-0">
+                            <i class="ti ti-star-filled text-warning me-1"></i
+                            >4.8 (200 Reviews)
+                          </p>
+                          <p class="mb-0">40 Services</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xl-3 col-lg-4 col-md-6 d-flex">
+                    <div class="provider-item flex-fill">
+                      <div class="d-flex align-items-center">
+                        <a
+                          href="provider-details.html"
+                          class="avatar avatar-xl me-2"
+                        >
+                          <img
+                            src="assets/img/partner/4.png"
+                            alt="img"
+                            class="rounded-circle"
+                          />
+                        </a>
+                        <div>
+                          <h6>
+                            <a href="provider-details.html">Justdial</a>
+                          </h6>
+                          <p class="fs-14 mb-0">
+                            <i class="ti ti-star-filled text-warning me-1"></i
+                            >4.8 (200 Reviews)
+                          </p>
+                          <p class="mb-0">40 Services</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xl-3 col-lg-4 col-md-6 d-flex">
+                    <div class="provider-item flex-fill">
+                      <div class="d-flex align-items-center">
+                        <a
+                          href="provider-details.html"
+                          class="avatar avatar-xl me-2"
+                        >
+                          <img
+                            src="assets/img/partner/5.png"
+                            alt="img"
+                            class="rounded-circle"
+                          />
+                        </a>
+                        <div>
+                          <h6>
+                            <a href="provider-details.html">Shaadi.com</a>
+                          </h6>
+                          <p class="fs-14 mb-0">
+                            <i class="ti ti-star-filled text-warning me-1"></i
+                            >4.8 (200 Reviews)
+                          </p>
+                          <p class="mb-0">40 Services</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xl-3 col-lg-4 col-md-6 d-flex">
+                    <div class="provider-item flex-fill">
+                      <div class="d-flex align-items-center">
+                        <a
+                          href="provider-details.html"
+                          class="avatar avatar-xl me-2"
+                        >
+                          <img
+                            src="assets/img/partner/6.jpeg"
+                            alt="img"
+                            class="rounded-circle"
+                          />
+                        </a>
+                        <div>
+                          <h6>
+                            <a href="provider-details.html">Jivansaathi.com</a>
+                          </h6>
+                          <p class="fs-14 mb-0">
+                            <i class="ti ti-star-filled text-warning me-1"></i
+                            >4.8 (200 Reviews)
+                          </p>
+                          <p class="mb-0">40 Services</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xl-3 col-lg-4 col-md-6 d-flex">
+                    <div class="provider-item flex-fill">
+                      <div class="d-flex align-items-center">
+                        <a
+                          href="provider-details.html"
+                          class="avatar avatar-xl me-2"
+                        >
+                          <img
+                            src="assets/img/partner/7.png"
+                            alt="img"
+                            class="rounded-circle"
+                          />
+                        </a>
+                        <div>
+                          <h6>
+                            <a href="provider-details.html">ZARA</a>
+                          </h6>
+                          <p class="fs-14 mb-0">
+                            <i class="ti ti-star-filled text-warning me-1"></i
+                            >4.8 (200 Reviews)
+                          </p>
+                          <p class="mb-0">40 Services</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xl-3 col-lg-4 col-md-6 d-flex">
+                    <div class="provider-item flex-fill">
+                      <div class="d-flex align-items-center">
+                        <a
+                          href="provider-details.html"
+                          class="avatar avatar-xl me-2"
+                        >
+                          <img
+                            src="assets/img/partner/8.png"
+                            alt="img"
+                            class="rounded-circle"
+                          />
+                        </a>
+                        <div>
+                          <h6>
+                            <a href="provider-details.html">Nike</a>
+                          </h6>
+                          <p class="fs-14 mb-0">
+                            <i class="ti ti-star-filled text-warning me-1"></i
+                            >4.8 (200 Reviews)
+                          </p>
+                          <p class="mb-0">40 Services</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="text-center view-all wow fadeInUp"
+                  data-wow-delay="0.2s"
+                >
+                  <a
+                    href="providers.html"
+                    class="btn btn-linear-primary d-inline-flex align-items-center"
+                    >View All<i class="ti ti-arrow-right ms-2"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- /Providers Section -->
+
+          <!-- Testimonial Section -->
+          <section class="testimonals-seven-section">
+            <div class="container">
+              <div class="">
+                <div class="row">
+                  <div
+                    class="col-md-6 aos aos-init aos-animate"
+                    data-aos="fade-up"
+                  >
+                    <div class="section-header text-center">
+                      <h2 class="mb-1">
+                        What People <span class="text-linear-primary">Say</span>
+                      </h2>
+                      <p class="sub-title">
+                        Real stories from customers who’ve experienced our
+                        services.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-md-6 text-md-end aos aos-init aos-animate"
+                    data-aos="fade-up"
+                  >
+                    <div class="owl-nav mynav-test"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row align-items-center">
+                <div class="col-lg-6 col-12">
+                  <div class="testimonals-top-seven">
+                    <img src="assets/img/testimonial-map.svg" alt="image" />
+                  </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                  <div
+                    class="owl-carousel testimonals-seven-slider owl-loaded owl-drag"
+                  >
+                    <div class="owl-stage-outer">
+                      <div
+                        class="owl-stage"
+                        style="
+                          transform: translate3d(-1140px, 0px, 0px);
+                          transition: all;
+                          width: 3990px;
+                        "
+                      >
+                        <div
+                          class="owl-item cloned"
+                          style="width: 546px; margin-right: 24px"
+                        >
+                          <div class="testimonials-main-ryt">
+                            <div class="testimonials-content-seven">
+                              <div class="testimonials-seven-img">
+                                <img
+                                  src="assets/img/profiles/avatar-19.jpg"
+                                  alt="User"
+                                />
+                                <div class="testimonials-img-content">
+                                  <h6>Suraj Jamdade</h6>
+                                  <div class="rating">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                  </div>
+                                </div>
+                              </div>
+                              <img
+                                src="assets/img/icons/1.png"
+                                alt="image"
+                                class="img-fluid"
+                              />
+                            </div>
+                            <p>
+                              There are many variations of passages of Lorem
+                              Ipsum available, but the majority have suffered
+                              alteration in some form, by injected humour, or
+                              randomised words which don
+                            </p>
+                          </div>
+                        </div>
+                        <div
+                          class="owl-item cloned"
+                          style="width: 546px; margin-right: 24px"
+                        >
+                          <div class="testimonials-main-ryt">
+                            <div class="testimonials-content-seven">
+                              <div class="testimonials-seven-img">
+                                <img
+                                  src="assets/img/profiles/avatar-11.jpg"
+                                  alt="User"
+                                />
+                                <div class="testimonials-img-content">
+                                  <h6>Suraj Jamdade</h6>
+                                  <div class="rating">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                  </div>
+                                </div>
+                              </div>
+                              <img
+                                src="assets/img/icons/1.png"
+                                alt="image"
+                                class="img-fluid"
+                              />
+                            </div>
+                            <p>
+                              There are many variations of passages of Lorem
+                              Ipsum available, but the majority have suffered
+                              alteration in some form, by injected humour, or
+                              randomised words which don
+                            </p>
+                          </div>
+                        </div>
+                        <div
+                          class="owl-item active"
+                          style="width: 546px; margin-right: 24px"
+                        >
+                          <div class="testimonials-main-ryt">
+                            <div class="testimonials-content-seven">
+                              <div class="testimonials-seven-img">
+                                <img
+                                  src="assets/img/profiles/avatar-17.jpg"
+                                  alt="User"
+                                />
+                                <div class="testimonials-img-content">
+                                  <h6>Suraj Jamdade</h6>
+                                  <div class="rating">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                  </div>
+                                </div>
+                              </div>
+                              <img
+                                src="assets/img/icons/1.png"
+                                alt="image"
+                                class="img-fluid"
+                              />
+                            </div>
+                            <p>
+                              Versatile and user-friendly platform for
+                              freelancers and businesses alike. Its interface is
+                              clean and intuitive, making it easy to post jobs,
+                              browse profiles, and manage projects. The range of
+                              services is impressive,
+                            </p>
+                          </div>
+                        </div>
+                        <div
+                          class="owl-item"
+                          style="width: 546px; margin-right: 24px"
+                        >
+                          <div class="testimonials-main-ryt">
+                            <div class="testimonials-content-seven">
+                              <div class="testimonials-seven-img">
+                                <img
+                                  src="assets/img/profiles/avatar-19.jpg"
+                                  alt="User"
+                                />
+                                <div class="testimonials-img-content">
+                                  <h6>Suraj Jamdade</h6>
+                                  <div class="rating">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                  </div>
+                                </div>
+                              </div>
+                              <img
+                                src="assets/img/icons/1.png"
+                                alt="image"
+                                class="img-fluid"
+                              />
+                            </div>
+                            <p>
+                              There are many variations of passages of Lorem
+                              Ipsum available, but the majority have suffered
+                              alteration in some form, by injected humour, or
+                              randomised words which don
+                            </p>
+                          </div>
+                        </div>
+                        <div
+                          class="owl-item"
+                          style="width: 546px; margin-right: 24px"
+                        >
+                          <div class="testimonials-main-ryt">
+                            <div class="testimonials-content-seven">
+                              <div class="testimonials-seven-img">
+                                <img
+                                  src="assets/img/profiles/avatar-11.jpg"
+                                  alt="User"
+                                />
+                                <div class="testimonials-img-content">
+                                  <h6>Suraj Jamdade</h6>
+                                  <div class="rating">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                  </div>
+                                </div>
+                              </div>
+                              <img
+                                src="assets/img/icons/1.png"
+                                alt="image"
+                                class="img-fluid"
+                              />
+                            </div>
+                            <p>
+                              There are many variations of passages of Lorem
+                              Ipsum available, but the majority have suffered
+                              alteration in some form, by injected humour, or
+                              randomised words which don
+                            </p>
+                          </div>
+                        </div>
+                        <div
+                          class="owl-item cloned"
+                          style="width: 546px; margin-right: 24px"
+                        >
+                          <div class="testimonials-main-ryt">
+                            <div class="testimonials-content-seven">
+                              <div class="testimonials-seven-img">
+                                <img
+                                  src="assets/img/profiles/avatar-17.jpg"
+                                  alt="User"
+                                />
+                                <div class="testimonials-img-content">
+                                  <h6>Suraj Jamdade</h6>
+                                  <div class="rating">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                  </div>
+                                </div>
+                              </div>
+                              <img
+                                src="assets/img/icons/1.png"
+                                alt="image"
+                                class="img-fluid"
+                              />
+                            </div>
+                            <p>
+                              Versatile and user-friendly platform for
+                              freelancers and businesses alike. Its interface is
+                              clean and intuitive, making it easy to post jobs,
+                              browse profiles, and manage projects. The range of
+                              services is impressive,
+                            </p>
+                          </div>
+                        </div>
+                        <div
+                          class="owl-item cloned"
+                          style="width: 546px; margin-right: 24px"
+                        >
+                          <div class="testimonials-main-ryt">
+                            <div class="testimonials-content-seven">
+                              <div class="testimonials-seven-img">
+                                <img
+                                  src="assets/img/profiles/avatar-19.jpg"
+                                  alt="User"
+                                />
+                                <div class="testimonials-img-content">
+                                  <h6>Suraj Jamdade</h6>
+                                  <div class="rating">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                  </div>
+                                </div>
+                              </div>
+                              <img
+                                src="assets/img/icons/1.png"
+                                alt="image"
+                                class="img-fluid"
+                              />
+                            </div>
+                            <p>
+                              There are many variations of passages of Lorem
+                              Ipsum available, but the majority have suffered
+                              alteration in some form, by injected humour, or
+                              randomised words which don
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- /Testimonial Section -->
+        </div>
+      </div>
+      <!-- /Page Wrapper -->
+
+      <!-- Footer -->
+      <footer>
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-xl-2">
+                <div class="footer-widget">
+                  <h5 class="mb-4">Ouick Links</h5>
+                  <ul class="footer-menu">
+                    <li>
+                      <a href="javascript:void(0);">Features</a>
+                    </li>
+                    <li>
+                      <a href="pricing.html">Pricing</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);">Case studies</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);">Reviews</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);">Updates</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6 col-xl-2">
+                <div class="footer-widget">
+                  <h5 class="mb-4">Support</h5>
+                  <ul class="footer-menu">
+                    <li>
+                      <a href="javascript:void(0);">Getting started</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);">Help center</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);">Server status</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);">Report a bug</a>
+                    </li>
+                    <li>
+                      <a href="user-chat.html">Chat support</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6 col-xl-2">
+                <div class="footer-widget">
+                  <h5 class="mb-4">For Provider</h5>
+                  <ul class="footer-menu">
+                    <li>
+                      <a href="about-us.html">About</a>
+                    </li>
+                    <li>
+                      <a href="contact-us.html">Contact us</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);">Careers</a>
+                    </li>
+                    <li>
+                      <a href="faq.html">Faq’s</a>
+                    </li>
+                    <li>
+                      <a href="blogs.html">Blog</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6 col-xl-2">
+                <div class="footer-widget">
+                  <h5 class="mb-4">Support</h5>
+                  <ul class="footer-menu">
+                    <li>
+                      <a href="javascript:void(0);">Getting started</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);">Help center</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);">Other Products</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);">Report a bug</a>
+                    </li>
+                    <li>
+                      <a href="user-chat.html">Chat support</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-12 col-xl-4">
+                <div class="footer-widget">
+                  <div class="d-flex align-items-center flex-wrap">
+                    <h6 class="fs-14 fw-normal me-2 mb-3">Download Our App</h6>
+                    <div>
+                      <a href="">
+                        <img
+                          src="assets/img/icons/app-store.svg"
+                          class="me-2"
+                          alt="img"
+                        />
+                      </a>
+                      <a href="">
+                        <img
+                          src="assets/img/icons/goolge-play.svg"
+                          class="me-2"
+                          alt="img"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="d-flex align-items-center justify-content-between flex-wrap mt-3"
+            >
+              <ul class="social-icon mb-3">
+                <li>
+                  <a href="javascript:void(0);"
+                    ><img src="assets/img/icons/fb.svg" class="img" alt="icon"
+                  /></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);"
+                    ><img
+                      src="assets/img/icons/instagram.svg"
+                      class="img"
+                      alt="icon"
+                  /></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);"
+                    ><img
+                      src="assets/img/icons/twitter.svg"
+                      class="img"
+                      alt="icon"
+                  /></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);"
+                    ><img
+                      src="assets/img/icons/whatsapp.svg"
+                      class="img"
+                      alt="icon"
+                  /></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);"
+                    ><img
+                      src="assets/img/icons/youtube.svg"
+                      class="img"
+                      alt="icon"
+                  /></a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);"
+                    ><img
+                      src="assets/img/icons/linkedin.svg"
+                      class="img"
+                      alt="icon"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div
+                  class="d-flex align-items-center justify-content-between flex-wrap"
+                >
+                  <p class="mb-2">
+                    Copyright &copy; 2025 - All Rights Reserved Dial For Hub
+                  </p>
+                  <ul class="menu-links mb-2">
+                    <li>
+                      <a href="terms-condition.html"> Terms and Conditions</a>
+                    </li>
+                    <li>
+                      <a href="privacy-policy.html">Privacy Policy</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /Footer Bottom -->
+      </footer>
+      <!-- /Footer -->
+    </div>
+    <!-- Jquery JS -->
+    <script
+      data-cfasync="false"
+      src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Wow JS -->
+    <script src="assets/js/wow.min.js"></script>
+
+    <!-- Owlcarousel Js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- select JS -->
+    <script src="assets/plugins/select2/js/select2.min.js"></script>
+
+    <!-- counterup JS -->
+    <script src="assets/js/cursor.js"></script>
+
+    <!-- Mobile Input -->
+    <script src="assets/plugins/intltelinput/js/intlTelInput.js"></script>
+    <script src="assets/plugins/ityped/index.js"></script>
+
+    <!-- Validation-->
+    <script src="assets/js/validation.js"></script>
+
+    <!-- Script JS -->
+    <script src="assets/js/script.js"></script>
+
+    <script
+      src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+      data-cf-settings="661578f858a6a79394a6f885-|49"
+      defer
+    ></script>
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+      integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
+      data-cf-beacon='{"rayId":"978a83cce98a4445","serverTiming":{"name":{"cfExtPri":true,"cfEdge":true,"cfOrigin":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2025.8.0","token":"3ca157e612a14eccbb30cf6db6691c29"}'
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </body>
+</html>
