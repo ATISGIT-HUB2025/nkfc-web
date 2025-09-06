@@ -2392,7 +2392,7 @@ button:focus {
 }
 
 .border {
-  border: 1px solid #ebeced !important;
+  border: 1px solid #000 !important;
 }
 
 .border.border-dashed {

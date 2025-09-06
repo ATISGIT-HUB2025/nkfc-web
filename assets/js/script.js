@@ -1,7 +1,3 @@
-/*
-Author       : Dreamguys
-Template Name: Truelysell - Bootstrap Template
-*/
 (function ($) {
   "use strict";
   var $slimScrolls = $(".slimscroll");
