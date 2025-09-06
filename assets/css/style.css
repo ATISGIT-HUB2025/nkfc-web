@@ -490,8 +490,13 @@ ul .btn-primary:not(:disabled):not(.disabled).active:focus {
 }
 
 .bg-primary-gradient {
-  background: linear-gradient(90deg, #588540 0%, #7fae65 50%, #adcb89 100%); !important;
-  color: #fff;
+  background: linear-gradient(
+    90deg,
+    #588540 0%,
+    #7fae65 50%,
+    #adcb89 100%
+  ) !important;
+  color: #fff !important;
 }
 
 .bg-secondary-gradient {
@@ -832,7 +837,7 @@ ul .btn-primary:not(:disabled):not(.disabled).active:focus {
 }
 
 .bg-primary-gradient {
-  background: linear-gradient(90deg, #588540 0%, #7fae65 50%, #adcb89 100%);;
+  background: linear-gradient(90deg, #588540 0%, #7fae65 50%, #adcb89 100%);
 }
 
 .bg-transparent-primary {
@@ -1658,7 +1663,7 @@ button:focus {
 }
 
 .btn.btn-linear-primary {
-  background: linear-gradient(90deg, #588540 0%, #7fae65 50%, #adcb89 100%);;
+  background: linear-gradient(90deg, #588540 0%, #7fae65 50%, #adcb89 100%);
   color: #fff;
   border: 0;
   position: relative;
@@ -1669,7 +1674,7 @@ button:focus {
 .btn.btn-linear-primary::before {
   content: "";
   position: absolute;
-  background: linear-gradient(90deg, #588540 0%, #7fae65 50%, #adcb89 100%);;
+  background: linear-gradient(90deg, #588540 0%, #7fae65 50%, #adcb89 100%);
   transform: scaleX(0);
   transform-origin: right center;
   transition: transform 0.24s ease-in-out;
@@ -3812,7 +3817,7 @@ h6,
 }
 
 .text-linear-primary {
-  background: linear-gradient(90deg, #588540 0%, #7fae65 50%, #adcb89 100%);;
+  background: linear-gradient(90deg, #588540 0%, #7fae65 50%, #adcb89 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -7263,7 +7268,7 @@ Form help
 
 .nav-tabs.nav-tabs-solid li a.active,
 .nav-tabs.nav-tabs-solid li a:hover {
-  background: linear-gradient(90deg, #588540 0%, #7fae65 50%, #adcb89 100%);;
+  background: linear-gradient(90deg, #588540 0%, #7fae65 50%, #adcb89 100%);
   border-color: #fff;
   color: #fff;
 }
@@ -13148,13 +13153,13 @@ footer .footer-top .footer-widget .footer-menu li a {
 }
 
 footer .footer-top .footer-widget .footer-menu li a:hover {
-  background: linear-gradient(90deg, #588540 0%, #7fae65 50%, #adcb89 100%);;
+  background: linear-gradient(90deg, #588540 0%, #7fae65 50%, #adcb89 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 footer .footer-top .footer-widget .footer-menu li a:hover::before {
-  background: linear-gradient(90deg, #588540 0%, #7fae65 50%, #adcb89 100%);;
+  background: linear-gradient(90deg, #588540 0%, #7fae65 50%, #adcb89 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -15250,7 +15255,7 @@ body.mini-sidebar.expand-menu .sidebar .sidebar-menu > ul li a i {
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
   border-top-left-radius: 50px;
-  border-bottom-right-radius:50px ;
+  border-bottom-right-radius: 50px;
 }
 
 .category-item img {
@@ -15860,7 +15865,7 @@ fieldset#first-field {
 }
 
 .service-wizard ul li.active {
-  background: linear-gradient(90deg, #588540 0%, #7fae65 50%, #adcb89 100%);;
+  background: linear-gradient(90deg, #588540 0%, #7fae65 50%, #adcb89 100%);
   color: #fff;
 }
 
@@ -18929,7 +18934,7 @@ fieldset.booking-content#first-field {
 
 #bokingwizard li::before {
   content: "";
-  border: 1px dashed #656b76;
+  border: 1px dashed #fff;
   width: 1px;
   height: calc(100% - 2px);
   position: absolute;
@@ -18946,7 +18951,7 @@ fieldset.booking-content#first-field {
   position: absolute;
   top: 2px;
   left: 0;
-  background: #111827;
+  background: #fff;
 }
 
 #bokingwizard li.active span::after {
@@ -34922,8 +34927,7 @@ p.total-client-content {
 .pricing-plans.price-new.pricing-plans-seven .btn {
   display: inline-block;
   padding: 10px 24px;
-    background: linear-gradient(90deg, #588540 0%, #7fae65 50%, #adcb89 100%);
-
+  background: linear-gradient(90deg, #588540 0%, #7fae65 50%, #adcb89 100%);
 }
 
 .pricing-plans.price-new.pricing-plans-seven .pricing-btn {
@@ -34973,7 +34977,7 @@ p.total-client-content {
 }
 
 .pricing-plans.price-new.active-seven {
-    background: linear-gradient(90deg, #588540 0%, #7fae65 50%, #adcb89 100%);
+  background: linear-gradient(90deg, #588540 0%, #7fae65 50%, #adcb89 100%);
   border: 1px solid #f0f0f0;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
@@ -35107,7 +35111,7 @@ p.total-client-content {
 
 .testimonals-seven-section {
   padding: 80px 0;
-   background: #f8fcfd;
+  background: #f8fcfd;
 }
 
 @media (max-width: 991.98px) {
@@ -35176,8 +35180,7 @@ p.total-client-content {
   padding: 20px;
 }
 
-
-.testimonials-main-ryt p{
+.testimonials-main-ryt p {
   color: #000;
 }
 .footer.footer-seven {

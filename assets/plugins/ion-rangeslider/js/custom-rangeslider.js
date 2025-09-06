@@ -9,10 +9,10 @@ $(document).ready(function () {
       type: "double",
       grid: !0,
       min: 0,
-      max: 500,
+      max: 500000,
       from: 5,
       to: 210,
-      prefix: "$",
+      prefix: "₹",
     }),
     $("#range_04").ionRangeSlider({
       type: "double",
